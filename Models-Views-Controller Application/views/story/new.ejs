@@ -1,0 +1,19 @@
+<%- include('../partials/header.ejs')%>
+    <form action = '/stories' method = 'POST' class="new-form">
+        <table>
+            <tr>
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title">
+            </tr>
+            <tr>
+                <label for="content">Content</label>
+                <textarea rows="5" id="content" name="content" class = "fixed-width"></textarea>
+            </tr>
+            <tr>
+                <input type="submit" value="Submit">  
+            </tr>
+        </table>
+    </form>
+
+    </div>
+    <%- include('../partials/footer.ejs')%>
